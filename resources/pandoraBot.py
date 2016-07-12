@@ -18,12 +18,12 @@ def get_filepaths(directory):
             file_paths.append(filepath)  # Add it to the list.
 return file_paths  # Self-explanatory.
 # Run the above function and store its results in a variable.
-full_file_paths = get_filepaths("/Users/alvaro/socialrobotics/rosie/lib");
+full_file_paths = get_filepaths("/Users/timothysum/dev/pepperSocialRobotics/rosie/lib");
 
 host = "aiaas.pandorabots.com"
 input = sys.argv
-user_key = "ebef938d291b3b0862ab6f666ec17060"
-app_id = "1409612789447"
+user_key = "replace"
+app_id = "replace"
 botname = "peppersocial"
 
 # Bot creation

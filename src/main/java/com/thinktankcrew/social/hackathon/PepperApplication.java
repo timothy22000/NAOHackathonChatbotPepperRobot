@@ -28,7 +28,7 @@ public class PepperApplication {
     private static ALAudioDevice audioDevice;
     private static long time;
     private static boolean processing = false;
-    private static String yourpath= "/timothysum/dev/";
+    private static String yourpath= "replace";
 
 	public static void main(String[] args) {
         //Pepper robot URL
@@ -47,8 +47,8 @@ public class PepperApplication {
 //		}
 
 		 file_name = "/home/nao/recordings/microphones/audio.ogg";
-		 speechToTextPythonScriptPath = "/Users" + yourpath + "pepper/resources/speechToText.py";
-		 pandoraBotScriptPath = "/Users" + yourpath + "pepper/resources/pandoraBot.py";
+		 speechToTextPythonScriptPath = "/Users" + yourpath + "pepperSocialRobotics/resources/speechToText.py";
+		 pandoraBotScriptPath = "/Users" + yourpath + "pepperSocialRobotics/resources/pandoraBot.py";
 
 		try {
             application.start();

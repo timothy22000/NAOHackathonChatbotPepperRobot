@@ -12,8 +12,8 @@ ssh = SSHClient()
 ssh.load_system_host_keys()
 server = "138.37.60.38"
 port = 22
-user = "nao"
-password = "nao"
+user = "replace"
+password = "replace"
 ssh.connect(server, port, user, password)
 
 # SCPCLient takes a paramiko transport as its only argument
